@@ -1,11 +1,32 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
- 
- <div class = "loginbox">
-     <h1>Login</h1>
- </div>
- 
+
+ <h1>Login</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+               <label for="username">User Name</label>
+                <input class="form-control" id="username" type="text" data-val="true" data-val-required="The User name field is required.">
+                <br>
+
+                <label for="password">Password</label>
+                <input class="form-control" id="password" type="password" data-val="true" data-val-required="The Password field is required." >
+                <br>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+            <br>
+            <a href ="Registration">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="footer"></div>
  
    
     
