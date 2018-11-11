@@ -36,10 +36,7 @@ namespace PRPC
             // Use SQL Database if in Azure, otherwise, use SQLite
 
             services.AddDbContext<MyDatabaseContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("prpc_database")));
-
-// Automatically perform database migration
-services.BuildServiceProvider().GetService<MyDatabaseContext>().Database.Migrate();
+                options.UseSqlServer(Configuration.GetConnectionString("prpc_database")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
