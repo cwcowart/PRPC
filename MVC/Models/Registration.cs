@@ -8,18 +8,18 @@ namespace PRPC_CIDM4390.Models
     {
 
         [DataType(DataType.Text)]
-        [StringLength(30, MinimumLength = 6)]
+        [StringLength(60, MinimumLength = 3)]
         [Required(ErrorMessage = "This field is required.")]
          public string username { get; set;}
 
         [DataType(DataType.Password)]
-        [StringLength(255, MinimumLength = 8)]
+        [StringLength(60, MinimumLength = 3)]
         [Required(ErrorMessage = "This field is required.")]
-        
         public string password { get; set;}
+
         [Compare("Password")]
         [DataType(DataType.Password)]
-        [StringLength(255, MinimumLength = 8)]
+        [StringLength(60, MinimumLength = 3)]
         [Required(ErrorMessage = "This field is required.")]
         public string confirmpassword {get; set;}
 
@@ -30,7 +30,7 @@ namespace PRPC_CIDM4390.Models
 
         
         [DataType(DataType.EmailAddress)]
-        [StringLength(128)]
+        [StringLength(60, MinimumLength = 7)]
         [Required(ErrorMessage = "This field is required.")]
         public string email {get; set;}
 
