@@ -44,13 +44,38 @@ namespace smsverifylibrary
                     
                 }
     }
-    /* public class NotifySmS : ISmSSend
+     public class NotifySmS
     {
-            public string PhoneNumber(string CustomerPhoneNumber)
+            public void VerifyText(string CustomerPhoneNumber, string TextBody)
             {
-                NotifyText();
-            }*/
+
+                string accountSID = System.Environment.GetEnvironmentVariable("TWILIO_SID");
+                string authToken = System.Environment.GetEnvironmentVariable("TWILIO_AUTHTOKEN");
+                string TwilioNumber = System.Environment.GetEnvironmentVariable("TWILIO_PHONE");
+
+                try
+                {
+                    
+                    TwilioClient.Init(accountSID, authToken);
+                    
+
+                    var message = MessageResource.Create(
+                        body: TextBody,
+                        from: new Twilio.Types.PhoneNumber(TwilioNumber),
+                        to: new Twilio.Types.PhoneNumber(CustomerPhoneNumber)
+                    );
+                    //Use Account Sid for testing to make sure the message was sent
+                    Console.WriteLine(message.Sid);
+                    Console.WriteLine(message.AccountSid);
+                }
+                catch(Exception exp)
+                {
+                    Console.Error.WriteLine("Error:" + exp.Message + Environment.NewLine + " " + exp.StackTrace);
+                }
+                
+            }
     }
+}
 
     
 

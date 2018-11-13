@@ -13,7 +13,7 @@ namespace smsverifyClient
         {
             DotEnv.Config();
             VerifySmS converter = new VerifySmS();
-            converter.VerifyText("+18065498221");
+            converter.VerifyText("");
 
            /* string accountSID = System.Environment.GetEnvironmentVariable("TWILIO_SID");
             string authToken = System.Environment.GetEnvironmentVariable("TWILIO_AUTHTOKEN");
