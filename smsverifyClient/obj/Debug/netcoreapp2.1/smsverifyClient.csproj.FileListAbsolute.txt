@@ -26,3 +26,9 @@ C:\PRPC\PRPC\smsverifyClient\bin\Debug\netcoreapp2.1\smsverifylibrary.pdb
 C:\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.csproj.CopyComplete
 C:\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.dll
 C:\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.pdb
+C:\4390\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.dll
+C:\4390\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.pdb
+C:\4390\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.csprojAssemblyReference.cache
+C:\4390\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.csproj.CoreCompileInputs.cache
+C:\4390\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.AssemblyInfoInputs.cache
+C:\4390\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.AssemblyInfo.cs

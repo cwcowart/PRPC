@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace TwilioLib
+namespace smsverifylibrary
 {
-    interface ISmSSend
+   /* interface ISmSSend
     {
         string PhoneNumber(string CustomerPhoneNumber);
-    }
+    }*/
 
-    public class VerifySmS : ISmSSend
+    /* public class VerifySmS : ISmSSend
     {
             public string PhoneNumber(string CustomerPhoneNumber)
             {
@@ -21,7 +21,7 @@ namespace TwilioLib
             {
                 NotifyText();
             }
-    }
+    }*/
 
     
 }
