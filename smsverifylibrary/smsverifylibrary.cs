@@ -3,10 +3,10 @@ using System.Threading.Tasks;
 
 namespace smsverifylibrary
 {
-   /* interface ISmSSend
+    interface ISmSSend
     {
         string PhoneNumber(string CustomerPhoneNumber);
-    }*/
+    }
 
     /* public class VerifySmS : ISmSSend
     {

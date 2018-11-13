@@ -176,23 +176,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Coolb\\.nuget\\packages\\": {},
+    "C:\\Users\\jv954091\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\4390\\PRPC\\PRPC\\smsverifylibrary\\smsverifylibrary.csproj",
+      "projectUniqueName": "C:\\PRPC\\PRPC\\PRPC-1\\smsverifylibrary\\smsverifylibrary.csproj",
       "projectName": "smsverifylibrary",
-      "projectPath": "C:\\4390\\PRPC\\PRPC\\smsverifylibrary\\smsverifylibrary.csproj",
-      "packagesPath": "C:\\Users\\Coolb\\.nuget\\packages\\",
-      "outputPath": "C:\\4390\\PRPC\\PRPC\\smsverifylibrary\\obj\\",
+      "projectPath": "C:\\PRPC\\PRPC\\PRPC-1\\smsverifylibrary\\smsverifylibrary.csproj",
+      "packagesPath": "C:\\Users\\jv954091\\.nuget\\packages\\",
+      "outputPath": "C:\\PRPC\\PRPC\\PRPC-1\\smsverifylibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Coolb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jv954091\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
