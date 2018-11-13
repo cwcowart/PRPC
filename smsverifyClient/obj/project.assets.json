@@ -1476,6 +1476,10 @@
       "smsverifylibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Twilio": "5.19.0",
+          "dotenv.net": "1.0.4"
+        },
         "compile": {
           "bin/placeholder/smsverifylibrary.dll": {}
         },
@@ -5210,7 +5214,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "Twilio >= 5.19.0",
       "dotenv.net >= 1.0.4",
       "smsverifylibrary >= 1.0.0"
     ]
@@ -5262,10 +5265,6 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
-          },
-          "Twilio": {
-            "target": "Package",
-            "version": "[5.19.0, )"
           },
           "dotenv.net": {
             "target": "Package",

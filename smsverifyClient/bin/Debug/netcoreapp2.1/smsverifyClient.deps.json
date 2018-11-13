@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v2.1": {
       "smsverifyClient/1.0.0": {
         "dependencies": {
-          "Twilio": "5.19.0",
           "dotenv.net": "1.0.4",
           "smsverifylibrary": "1.0.0"
         },
@@ -867,6 +866,10 @@
         }
       },
       "smsverifylibrary/1.0.0": {
+        "dependencies": {
+          "Twilio": "5.19.0",
+          "dotenv.net": "1.0.4"
+        },
         "runtime": {
           "smsverifylibrary.dll": {}
         }

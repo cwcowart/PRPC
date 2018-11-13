@@ -1,9 +1,7 @@
 ﻿using System;
 using smsverifylibrary;
-using Twilio;
-using Twilio.Rest.Api.V2010.Account;
-using dotenv.net;
 using System.Threading.Tasks;
+using dotenv.net;
 
 namespace smsverifyClient
 {
@@ -13,10 +11,11 @@ namespace smsverifyClient
         public static string TwilioNumber = System.Environment.GetEnvironmentVariable("TWILIO_PHONE");
         static void Main(string[] args)
         {
-
             DotEnv.Config();
+            VerifySmS converter = new VerifySmS();
+            converter.VerifyText("+18065498221");
 
-            string accountSID = System.Environment.GetEnvironmentVariable("TWILIO_SID");
+           /* string accountSID = System.Environment.GetEnvironmentVariable("TWILIO_SID");
             string authToken = System.Environment.GetEnvironmentVariable("TWILIO_AUTHTOKEN");
             
             Console.WriteLine($"auth token is: {authToken}");
@@ -41,7 +40,7 @@ namespace smsverifyClient
             catch(Exception exp)
             {
                 Console.Error.WriteLine("Error:" + exp.Message + Environment.NewLine + " " + exp.StackTrace);
-            }
+            }*/
         }
         
     }
